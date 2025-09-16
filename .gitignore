@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.mypy_cache/
+*.ruff_cache/
+*.coverage
+.coverage.*
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+
+# --- Environment & secrets ---
+.env
+*.env.*
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE/editor ---
+.vscode/
+.idea/
+
+# --- Local storage ---
+tracker_storage.json
